@@ -58,6 +58,12 @@ public class CalculatorTest {
 	public void testMin () {
 		Assert.assertEquals(10,calculator.min(10,29));
 	}
+
+	@Test
+	public void testMax()
+	{
+		Assert.assertEquals(29,calculator.max(10,29));
+	}
 	
 	
 	@Test(expected = ArithmeticException.class)
