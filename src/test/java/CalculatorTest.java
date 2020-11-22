@@ -31,26 +31,22 @@ public class CalculatorTest {
 			Assert.fail();
 			
 		}
-		//AssertEquals(4,result);
 
 	}
 
 	@Test
 	public void testMinus() {
-		//Calculator calculator = new Calculator();
 		Assert.assertEquals(0, calculator.minus(2, 2));
 	}
 
 	@Test
 	public void testDivide() {
-		//Calculator calculator = new Calculator();
 		Assert.assertEquals(2, calculator.divide(6, 3));
 	}
 	
 	
 	@Test 
 	public void testMultiply() {
-		//Calculator calculator = new Calculator();
 		Assert.assertEquals(12, calculator.multiply(6, 2));
 
 	}
@@ -62,20 +58,17 @@ public class CalculatorTest {
 	
 	@Test(expected = ArithmeticException.class)
 	public void testDivideWillThrowExceptionWhenDivideOnZero() {
-		//Calculator calculator = new Calculator();
 		calculator.divide(6, 0);
 	}
 	@Test
 	public void test_minOfList() {
 		
-		//Calculator calculator=new Calculator();
 		
 		Assert.assertEquals(0,	calculator.minElement(tab));
 	}
 	@Test
 	public void test_maxOfList() {
 		
-		//Calculator calculator=new Calculator();
 		
 		Assert.assertEquals(9,	calculator.maxElement(tab));
 	}
