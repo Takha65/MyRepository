@@ -23,7 +23,7 @@ public class CalculatorTest {
 
 	@Test
 	public void testSum() {
-		// Given
+		
 		// When
 		int result = calculator.sum(2, 2);
 		//Then
