@@ -38,7 +38,11 @@ public class Calculator {
             for(int i:liste){
                 if(i<min)
                     min=i;
+<<<<<<< HEAD
                 
+=======
+
+>>>>>>> 4987b0aaa07ff8a8aaa818e00ca3078d993907ba
             }
             return min;
         }

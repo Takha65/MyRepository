@@ -47,6 +47,10 @@ public class CalculatorTest {
 	
 	@Test 
 	public void testMultiply() {
+<<<<<<< HEAD
+=======
+
+>>>>>>> 4987b0aaa07ff8a8aaa818e00ca3078d993907ba
 		Assert.assertEquals(12, calculator.multiply(6, 2));
 
 	}
@@ -54,10 +58,20 @@ public class CalculatorTest {
 	public void testMin () {
 		Assert.assertEquals(10,calculator.min(10,29));
 	}
+
+	@Test
+	public void testMax()
+	{
+		Assert.assertEquals(29,calculator.max(10,29));
+	}
 	
 	
 	@Test(expected = ArithmeticException.class)
 	public void testDivideWillThrowExceptionWhenDivideOnZero() {
+<<<<<<< HEAD
+=======
+
+>>>>>>> 4987b0aaa07ff8a8aaa818e00ca3078d993907ba
 		calculator.divide(6, 0);
 	}
 	@Test
