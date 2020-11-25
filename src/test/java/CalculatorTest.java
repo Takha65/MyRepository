@@ -9,15 +9,10 @@ import org.junit.Test;
 /**
  * 
  * @author macbookpro
-<<<<<<< HEAD
  * Akassa Fall
  */
-=======
- * Akassa Fall 
- *
- */
 
->>>>>>> test
+
 public class CalculatorTest {
 
 	
