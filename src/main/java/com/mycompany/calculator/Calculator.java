@@ -38,7 +38,7 @@ public class Calculator {
             for(int i:liste){
                 if(i<min)
                     min=i;
-                
+
             }
             return min;
         }

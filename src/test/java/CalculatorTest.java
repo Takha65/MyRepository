@@ -47,6 +47,7 @@ public class CalculatorTest {
 	
 	@Test 
 	public void testMultiply() {
+
 		Assert.assertEquals(12, calculator.multiply(6, 2));
 
 	}
@@ -54,10 +55,17 @@ public class CalculatorTest {
 	public void testMin () {
 		Assert.assertEquals(10,calculator.min(10,29));
 	}
+
+	@Test
+	public void testMax()
+	{
+		Assert.assertEquals(29,calculator.max(10,29));
+	}
 	
 	
 	@Test(expected = ArithmeticException.class)
 	public void testDivideWillThrowExceptionWhenDivideOnZero() {
+
 		calculator.divide(6, 0);
 	}
 	@Test
