@@ -39,10 +39,14 @@ public class Calculator {
                 if(i<min)
                     min=i;
 <<<<<<< HEAD
+<<<<<<< HEAD
                 
 =======
 
 >>>>>>> 4987b0aaa07ff8a8aaa818e00ca3078d993907ba
+=======
+
+>>>>>>> Mountaha_Ndoye
             }
             return min;
         }

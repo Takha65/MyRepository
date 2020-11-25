@@ -48,9 +48,13 @@ public class CalculatorTest {
 	@Test 
 	public void testMultiply() {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 4987b0aaa07ff8a8aaa818e00ca3078d993907ba
+=======
+
+>>>>>>> Mountaha_Ndoye
 		Assert.assertEquals(12, calculator.multiply(6, 2));
 
 	}
@@ -69,9 +73,13 @@ public class CalculatorTest {
 	@Test(expected = ArithmeticException.class)
 	public void testDivideWillThrowExceptionWhenDivideOnZero() {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 4987b0aaa07ff8a8aaa818e00ca3078d993907ba
+=======
+
+>>>>>>> Mountaha_Ndoye
 		calculator.divide(6, 0);
 	}
 	@Test
