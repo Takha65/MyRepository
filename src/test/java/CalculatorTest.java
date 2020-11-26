@@ -9,12 +9,11 @@ import org.junit.Test;
 /**
  * 
  * @author macbookpro
- * Akassa Fall 
- *
+ * Akassa Fall
  */
 
 public class CalculatorTest {
-	
+
 	
 
 	Calculator calculator;
