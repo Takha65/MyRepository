@@ -12,7 +12,10 @@ import org.junit.Test;
  * Akassa Fall
  */
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> Takha
 public class CalculatorTest {
 
 	
