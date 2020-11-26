@@ -1,6 +1,6 @@
 FROM openjdk:8-jdk-alpine
 
-ARG JAR_FILE=target/service_jar.jar
+ARG JAR_FILE=target/service.jar
 ARG JAR_LIB_FILE=target/lib/
 
 # cd /usr/local/runme
