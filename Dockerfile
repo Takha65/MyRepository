@@ -1,6 +1,6 @@
 FROM openjdk:8-jdk-alpine
 
-ARG JAR_FILE=target/Calcul-1.0-SNAPSHOT.jar
+ARG JAR_FILE=target/Calculator-1.0-SNAPSHOT.jar
 ARG JAR_LIB_FILE=target/lib/
 
 # cd /usr/local/runme
