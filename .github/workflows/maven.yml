@@ -27,7 +27,7 @@ jobs:
     - name: build and push docker images
       uses: mr-smithers-excellent/docker-build-push@v4
       with: 
-        image: breezyaloo/projetagl
+        image: breezyaloo/projetagl2020
         registry: docker.io
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
