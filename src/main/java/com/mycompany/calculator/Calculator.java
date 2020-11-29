@@ -63,8 +63,4 @@ public class Calculator {
 		System.out.println("Akassa Fall");
 	}
 
-	public static void main(String[] args) {
-		System.out.println("Akassa Fall");
-	}
-
 }
