@@ -58,5 +58,9 @@ public class Calculator {
             }
             return max;
         }
+	//la methode main va nous permettre de tester le container creee avec docker
+	public static void main(String[] args) {
+		System.out.println("Akassa Fall");
+	}
 
 }
